@@ -1,5 +1,5 @@
 # Sistema de Riego Automático (EN PROCESO DE DESARROLLO).
-* Proyecto en Proceso de Desarrollo acerca de Sistema de Riego Automático para Plantas
+* Proyecto en Proceso de Desarrollo Sistema de Riego Automático para Plantas
 
 
 | **Elementos** | 
