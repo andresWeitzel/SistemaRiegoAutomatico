@@ -1,4 +1,4 @@
-# Sistema de Riego Automático.
+# Sistema de Riego Automático (EN PROCESO DE DESARROLLO).
 * Proyecto en Proceso de Desarrollo acerca de Sistema de Riego Automático para Plantas
 
 
