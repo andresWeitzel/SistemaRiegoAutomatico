@@ -1,5 +1,6 @@
-# Sistema de Riego Automático (EN PROCESO DE DESARROLLO).
+# Sistema de Riego Automático (en desarrollo).
 * Proyecto en Proceso de Desarrollo Sistema de Riego Automático para Plantas
+* PlayList del Proyecto : https://www.youtube.com/watch?v=Nh3k1abEXmU&list=PLCl11UFjHurDl2g5HzPVV0YSPFX-Akhr6
 
 
 | **Elementos** | 
@@ -16,4 +17,13 @@
 | +2 Leds con sus resistores |
 | Varios cables Dupont  |
 
+</hr>
 
+</br>
+
+### Documentación Gráfica (Sucinta)
+
+</br>
+
+#### Módulo de Activación y Control de Sensores
+ ![Index app](https://github.com/andresWeitzel/SistemaRiegoAutomatico/blob/master/ImagenesProyecto/SensoresDeAguaRele/ActivacionSensoresRele%20(2).jpg)
