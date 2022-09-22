@@ -1,0 +1,52 @@
+
+Pagina Obtener Promedio ->https://miniwebtool.com/es/average-calculator/
+
+================================
+== PROMEDIOS FALLA CONEXION ==
+================================
+
+(Calcularemos los promedios de las mediciones realizadas distribuidas 
+en 3 rangos para saber el valor casi exacto de la medición que toma
+el sensor cuando se interrumpe el suministro electrico desde el cable
+negativo
+
+* Cada una de las Mediciones se tomaron cada 200 milisegundos
+* Las Mediciones se tomáron a Temperatura Ambiente (Aprox. 25°C)
+* El sensor estaba adherido a la pared del recipiente y de forma vertical
+
+
+-----------------------------
+---PROMEDIO DEL PRIMER RANGO ---
+-----------------------------
+Números totales: 	 516 
+ Suma de números: 	 487173 
+ Valor promedio: 	 944.13372093 
+
+
+
+-----------------------------
+---PROMEDIO DEL SEGUNDO RANGO ---
+-----------------------------
+Números totales: 	 643 
+ Suma de números: 	 571708 
+ Valor promedio: 	 889.125972006 
+
+
+
+-----------------------------
+---PROMEDIO DEL TERCER RANGO ---
+-----------------------------
+Números totales: 	 248 
+ Suma de números: 	 233713 
+ Valor promedio: 	 942.391129032 
+
+
+
+
+
+-----------------------------------
+---PROMEDIO TOTAL DE MEDICIONES ---
+-----------------------------------
+ Números totales: 	 3 
+ Suma de números: 	 2775.65082197 
+ Valor promedio: 	 925.216940656 

@@ -1,0 +1,140 @@
+=====================
+== VALORES DE USO ===
+=====================
+
+(Estos valores son los promedios totales de los rangos de mediciones
+previamente tomados por el sensor y calculados, dicha información se 
+encuentra en el Proyecto).
+
+Como aclaración se tomaron 3 rangos de mediciones de aproximadamente 
+800 mediciones cada 200 milisegundos a 25°C Aprox. Temperatura Ambiente 
+y del Agua para cada rango al 100% y 50% de Nivel de Agua del Sensor Aprox.
+
+También 3 rangos de aprox 500 mediciones cada uno, 25°C Temperatura ambiente
+y de agua completamente sumergido para comprobar los valores que toma el sensor
+cuando se  desconecta algun cable, negativo como positivo modelando una falla 
+electrica o de sumistro
+
+
+
+* Valor Medido Sensor 100% Sumergido = 420 (Tiende a baja Resistividad)
+
+* Valor Medido Sensor 50% Sumergido = 161
+
+* Valor Medido Sensor 0% Sumergido = 0 (Valor Min Presenta alta resistividad)
+
+* Valor Medido Falla de Conexión Cable Negativo = 935
+
+* Valor Medido Falla de Conexion Cable Positivo = 66
+
+--------------------------------------
+---- SUPONDREMOS LA PEOR CONDICION ---
+--------------------------------------
+
+(Qué el Sensor tenga una errónea medición a causa de un bajo suministro
+ eléctrico, desperfecto del micro, cambio de T° o lo que sea).
+
+Agregamos/Quitamos un margen del 25% aprox. para dichos valores y trabajaremos con 
+los mismos. 
+
+Trabajare las peores condiciones en base al valor medido Mitad Sensor Sumergido, ya 
+que estos sensores cambian rotundamente las mediciones con la temperaqtura del agua, por 
+eso usamos rangos pequeños.
+
+
+------------------------------------------
+-- Agregamos el 25% del valor Sumergido----
+-------------------------------------------
+
+Valor con  Margen +25% Sensor Completamente Sumergido= 525
+
+(420(Valor Medido) + 105(Valor Margen))  = 525
+
+Operación Valor Margen 25% --> ((420*25)/100)) = 105
+
+
+
+------------------------------------------
+-- Agregamos el 25% del valor Mitad Sumergido----
+-------------------------------------------
+
+Valor con  Margen +25% Sensor Completamente Sumergido= 201
+
+(161(Valor Medido) + 40(Valor Margen))  = 201
+
+Operación Valor Margen 25% --> ((161*25)/100)) = 40
+
+
+
+--------------------------------------------------------------------
+-- Quitamos el 25% del valor de Falla de Conexion Cable Negativo----
+--------------------------------------------------------------------
+
+Valor con Margen -25% Sensor No Sumergido = 700 
+
+(934(Valor Medido) - 234(Valor Margen))  = 700
+
+Operación Valor Margen 25% --> ((25*943)/100)) = 234
+
+
+--------------------------------------------------------------------
+-- Agregamos el 25% del valor de Falla de Conexion Cable Positivo----
+--------------------------------------------------------------------
+
+Valor con Margen +25% Sensor No Sumergido = 83
+
+(66(Valor Medido) + 17(Valor Margen))  = 83
+
+Operación Valor Margen 25% --> ((25*66)/100)) = 17
+
+
+
+* Valor Sensor 100% Sumergido Peor Condicion = 525
+
+* Valor Sensor 50% Sumergido Peor Condición = 201
+( Usaremos este valor para que toda medición menor a esta sea condición de advertencia o activacion bomba )
+
+
+* Valor Sensor Falla Conexion Cable Negativo Peor Condición = 700
+
+* Valor Sensor Falla Conexion Cable Positivo Peor Condición = 83
+
+
+
+--------------------------------------------------------------------------------------
+
+* El Rango de Operación de Dicho Sensor para dar una Señal de Nivel 
+Bajo de Agua o fallo eléctrico será entonces.
+
+
+-----------------------------
+--PEORES CONDICIONES DE USO--
+-----------------------------
+
+
+--------------------------------------------------
+--Peores Condiciones(Semi Sumergido a Sumergido)--
+--------------------------------------------------
+
+201(< Deposito Vacio/Peor Condición) a 525(< Deposito Lleno/Peor Condición)
+
+
+* La condición de activación de aviso es cuando la medicion no esta entre 201 y 525.
+
+
+-------------------------------------------------------
+--Peores Condiciones(Fallo de Conexión Cable Negativo)--
+-------------------------------------------------------
+700(Valor Min/Peor Condicion) a 1023(Valor Máx/Máximo valor Posible)
+
+
+-------------------------------------------------------
+--Peores Condiciones(Fallo de Conexión Cable Positivo)--
+-------------------------------------------------------
+0(Valor Min/Min Valor Posible) a 83(Valor Máx/Peor Condición)
+
+
+
+
+
+-------------------------------------------------------------------------------------

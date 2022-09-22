@@ -1,0 +1,152 @@
+=====================
+== VALORES DE USO ===
+=====================
+
+(Estos valores son los promedios totales de los rangos de mediciones
+previamente tomados por el sensor y calculados, dicha información se 
+encuentra en el Proyecto).
+
+Como aclaración se tomaron 3 rangos de mediciones de aproximadamente 
+800 mediciones cada 200 milisegundos a 25°C Aprox. Temperatura Ambiente 
+y de Agua para cada rango al 100% y 50% de Nivel de Agua del Sensor Aprox.
+
+También 3 rangos de aprox 500 mediciones cada uno, 25°C Temperatura ambiente
+y de agua completamente sumergido para comprobar los valores que toma el sensor
+cuando se  desconecta algun cable, negativo como positivo modelando una falla 
+electrica o de sumistro
+
+
+
+
+
+* Valor Medido Sensor 100% Sumergido = 503
+
+* Valor Medido Sensor 50% Sumergido = 360 (No es condición Necesaria ya que se tomará 
+del 0% al 100% sumergido el rango de uso).
+
+* Valor Medido Sensor 0% Sumergido = Valor < ValorSemiSumergido, por ende consideraremos el 0
+
+* Valor Medido fallo conexion cable negativo = 925
+
+* Valor Medido fallo conexion cable positivo = 4.56
+
+--------------------------------------
+---- SUPONDREMOS LA PEOR CONDICION ---
+--------------------------------------
+
+(Qué el Sensor tenga una errónea medición a causa de un bajo suministro
+ eléctrico, desperfecto del micro, cambio de T° o lo que sea).
+
+Agregamos/Quitamos un margen del 25% aprox. para dichos valores y trabajaremos con 
+los mismos. 
+
+
+
+---------------------
+-- -25%  Sumergido----
+----------------------
+
+Valor con Margen -25% Sensor Completamente Sumergido= 377
+
+(503(Valor Medido) - 126(Valor Margen))  = 377
+
+Operación Valor Margen 25% --> ((25*503)/100)) = 126
+
+
+
+
+
+
+--------------------------
+-- -25% Semi Sumergido----
+--------------------------
+
+Valor con Margen -25% Sensor Semi Sumergido Sumergido= 270
+
+
+(360(Valor Medido) - 90(Valor Margen))  = 270
+
+
+Operación Valor Margen 25% --> ((25*360)/100)) = 90
+
+
+
+-----------------------------------------
+-- -25% Fallo Conexion Cable Negativo----
+-----------------------------------------
+
+Valor con Margen -25% Fallo Conexion del Sensor = 694
+
+
+(925(Valor Medido) - 231(Valor Margen)) = 694 
+
+
+Operacion Valor Margen 25% ---> ((25*925)/100)) = 231
+
+
+
+
+-----------------------------------------
+-- +25% Fallo Conexion Cable Positivo----
+-----------------------------------------
+
+* Recordar que este sensor mide de 0 a 1023, no podemos restarle el 25%, asi que le agregamos
+acortando el margen de error posible
+
+
+Valor con Margen +25% Fallo Conexion del Sensor = 5.7
+
+
+(4.56(Valor Medido) + 1.14(Valor Margen)) = 5.7 
+
+
+Operacion Valor Margen 25% ---> ((25*4.56)/100)) = 1.14
+
+
+
+
+
+
+--------------------------------------------------------------------------------------
+
+* El Rango de Operación de Dicho Sensor para dar una Señal de Nivel 
+Bajo de Agua o fallo será entonces..
+
+-----------------------------
+-- Condición Normal Medida---
+-----------------------------
+
+360(Valor Mín.) a 503(Valor Máx.) 
+
+
+--------------------------------------------------
+--Fallo de Conexión Cable Negativo--
+--------------------------------------------------
+925(Valor Min) a 1023(Valor Max) 
+
+
+--------------------------------------------------
+--Fallo de Conexión Cable Positivo--
+--------------------------------------------------
+0(Valor Min) a 4.56(Valor Max) 
+
+
+
+--------------------------------------------------
+--Peores Condiciones(Semi Sumergido a Sumergido)--
+--------------------------------------------------
+
+270(Valor Mín/Peor Condición) a 377(Valor Máx/Peor Condición)  
+
+
+-------------------------------------------------------
+--Peores Condiciones(Fallo de Conexión Cable Negativo)--
+-------------------------------------------------------
+694(Valor Min/Peor Condicion) a 1023(Valor Máx/Máximo valor Posible)
+
+
+-------------------------------------------------------
+--Peores Condiciones(Fallo de Conexión Cable Positivo)--
+-------------------------------------------------------
+0(Valor Min/Minimo valor posible) a 5.7(Valor Máx/Peor Condicion)
+

@@ -1,0 +1,50 @@
+
+
+Pagina Obtener Promedio ->https://miniwebtool.com/es/average-calculator/
+
+======================================
+== PROMEDIOS SENSOR SEMI-SUMERGIDO ==
+======================================
+
+(Calcularemos los promedios de las mediciones realizadas distribuidas 
+en 3 rangos para saber el valor casi exacto de la medición que toma
+el sensor Semi sumergido(50% Sumergido)).
+
+* Cada una de las Mediciones se tomaron cada 200 milisegundos
+* Las Mediciones se tomáron a Temperatura Ambiente (Aprox. 25°C)
+* El sensor estaba adherido a la pared del recipiente y de forma vertical
+
+
+
+-----------------------------
+---PROMEDIO del 1er Rango ---
+-----------------------------
+ Números totales: 	 523 
+ Suma de números: 	 190099 
+ Valor promedio: 	 363.478011472
+
+
+-----------------------------
+---PROMEDIO DEL 2DO RANGO ---
+-----------------------------
+ Números totales: 	 746 
+ Suma de números: 	 282739 
+ Valor promedio: 	 379.006702413 
+
+
+
+-----------------------------
+---PROMEDIO DEL 3ER RANGO ---
+-----------------------------
+ Números totales: 	 825 
+ Suma de números: 	 279868 
+ Valor promedio: 	 339.233939394 
+
+
+
+-----------------------------------
+---PROMEDIO TOTAL DE MEDICIONES ---
+-----------------------------------
+Números totales: 	 3 
+ Suma de números: 	 1081.71865328 
+ Valor promedio: 	 360.572884426 

@@ -1,0 +1,54 @@
+
+Pagina Obtener Promedio ->https://miniwebtool.com/es/average-calculator/
+
+===================================
+== PROMEDIOS FALLA CABLE POSITIVO==
+===================================
+
+(Calcularemos los promedios de las mediciones realizadas distribuidas 
+en 3 rangos de 500 mediciones aprox para cada rango para saber el valor casi 
+exacto de la medición que toma el sensor cuando se desconecta el cable posititvo,
+presentandose una falla electrica.
+
+* Cada una de las Mediciones se tomaron cada 200 milisegundos
+* Las Mediciones se tomáron a Temperatura Ambiente y Agua (Aprox. 25°C).
+* El sensor estaba adherido a la pared del recipiente y de forma vertical
+
+
+-----------------------------
+---PROMEDIO 1ER RANGO ---
+-----------------------------
+Números totales: 	 450 
+ Suma de números: 	 31239 
+ Valor promedio: 	 69.42 
+
+
+
+
+-----------------------------
+---PROMEDIO DEL 2DO RANGO ---
+-----------------------------
+ Números totales: 	 566 
+ Suma de números: 	 36656 
+ Valor promedio: 	 64.7632508834 
+
+
+
+
+
+-----------------------------
+---PROMEDIO del 3er Rango ---
+-----------------------------
+ Números totales: 	 698 
+ Suma de números: 	 43618 
+ Valor promedio: 	 62.4899713467 
+
+
+-----------------------------------
+---PROMEDIO Total de Mediciones ---
+-----------------------------------
+ Números totales: 	 3 
+ Suma de números: 	 197 
+ Valor promedio: 	 65.6666666667 
+
+

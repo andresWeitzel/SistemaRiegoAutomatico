@@ -1,0 +1,51 @@
+
+Pagina Obtener Promedio ->https://miniwebtool.com/es/average-calculator/
+
+================================
+== PROMEDIOS SENSOR SUMERGIDO ==
+================================
+
+(Calcularemos los promedios de las mediciones realizadas distribuidas 
+en 3 rangos para saber el valor casi exacto de la medición que toma
+el sensor Sumergido(100% Sumergido)).
+
+* Cada una de las Mediciones se tomaron cada 200 milisegundos
+* Las Mediciones se tomáron a Temperatura Ambiente (Aprox. 25°C)
+
+
+-----------------------------
+---PROMEDIO 1ER RANGO ---
+-----------------------------
+ Números totales: 	 1052 
+ Suma de números: 	 553789 
+ Valor promedio: 	 526.41539924
+
+
+
+
+-----------------------------
+---PROMEDIO DEL 2DO RANGO ---
+-----------------------------
+ Números totales: 	 453 
+ Suma de números: 	 232272 
+ Valor promedio: 	 512.741721854 
+
+
+
+-----------------------------
+---PROMEDIO del 3er Rango ---
+-----------------------------
+ Números totales: 	 647 
+ Suma de números: 	 304701 
+ Valor promedio: 	 470.944358578 
+
+
+-----------------------------------
+---PROMEDIO Total de Mediciones ---
+-----------------------------------
+ Números totales: 	 3 
+ Suma de números: 	 1510.10147967 
+ Valor promedio: 	 503.367159891 
+
+
+
