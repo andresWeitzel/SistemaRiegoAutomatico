@@ -25,5 +25,19 @@
 
 </br>
 
-#### Módulo de Activación y Control de Sensores
+
+### Módulo Lcd Led e i2C
+ ![Index app](https://github.com/andresWeitzel/SistemaRiegoAutomatico/blob/master/ImagenesProyecto/Captura%20de%20pantalla%20(894).png)
+
+### Sistema Interno
+ ![Index app](https://github.com/andresWeitzel/SistemaRiegoAutomatico/blob/master/ImagenesProyecto/Captura%20de%20pantalla%20(895).png)
+
+### Sensores de Agua
+ ![Index app](https://github.com/andresWeitzel/SistemaRiegoAutomatico/blob/master/ImagenesProyecto/Captura%20de%20pantalla%20(897).png)
+
+
+### Módulo de Activación y Control de Sensores
  ![Index app](https://github.com/andresWeitzel/SistemaRiegoAutomatico/blob/master/ImagenesProyecto/SensoresDeAguaRele/ActivacionSensoresRele%20(2).jpg)
+
+
+
